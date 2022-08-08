@@ -7,7 +7,7 @@
 body {
   font-size: 20px;
   color: #212529;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Lora", "Times New Roman", serif;
 }
 
 p {
@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -36,7 +36,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #0085a1;
 }
 
 blockquote {
@@ -63,7 +63,7 @@ blockquote {
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #0085a1;
   text-shadow: none;
 }
 
@@ -80,8 +80,8 @@ img::-moz-selection {
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
-  background-color: white;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -142,20 +142,20 @@ img::-moz-selection {
     transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff;
     background-color: rgba(255, 255, 255, 0.9);
   }
   #mainNav.is-fixed .navbar-brand {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #0085a1;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #0085a1;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -166,8 +166,7 @@ img::-moz-selection {
 
 header.masthead {
   margin-bottom: 50px;
-  background: no-repeat center center;
-  background-color: #868e96;
+  background: #868e96 url("/img/abenteuer-albanien.jpg") no-repeat center 70%;
   background-attachment: scroll;
   position: relative;
   background-size: cover;
@@ -187,7 +186,7 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
-  color: white;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -216,7 +215,7 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin: 10px 0 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
@@ -240,14 +239,14 @@ header.masthead .post-heading .subheading {
   font-size: 24px;
   font-weight: 600;
   margin: 10px 0 30px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header.masthead .post-heading .meta {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Lora", "Times New Roman", serif;
 }
 
 header.masthead .post-heading .meta a {
@@ -269,7 +268,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #0085a1;
 }
 
 .post-preview > a > .post-title {
@@ -297,7 +296,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #0085a1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -326,13 +325,13 @@ header.masthead .post-heading .meta a {
   background: none;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Lora", "Times New Roman", serif;
 }
 
 .floating-label-form-group input::-webkit-input-placeholder,
 .floating-label-form-group textarea::-webkit-input-placeholder {
   color: #868e96;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Lora", "Times New Roman", serif;
 }
 
 .floating-label-form-group label {
@@ -360,7 +359,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #0085a1;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -389,12 +388,12 @@ footer .copyright {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #0085a1;
+  border-color: #0085a1;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
